@@ -78,13 +78,4 @@ describe("assert.js", () => {
       expect(() => assertType({}, "array")).toThrow();
     });
   });
-
-  describe("assertId()", () => {
-    const id = "3hVUQkpy86stkn9d";
-
-    it("works", () => {
-      assertId(id);
-      expect(() => assertId("abc")).toThrow();
-    });
-  });
 });

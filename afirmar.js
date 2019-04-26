@@ -31,10 +31,4 @@ export const assertType = (obj, type) => {
   }
 };
 
-export const assertId = id => {
-  assert(Boolean(id));
-  assert(/^[a-zA-Z0-9]{16}$/.test(id));
-  assertType(id, "string");
-};
-
 export default assert;

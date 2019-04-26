@@ -2,7 +2,7 @@
   "name": "afirmar",
   "version": "0.1.0",
   "description": "Assertion library, but in Spanish",
-  "main": "index.js",
+  "main": "afirmar.js",
   "scripts": {
     "test": "jest"
   },
