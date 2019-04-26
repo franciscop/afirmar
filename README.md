@@ -1,12 +1,16 @@
 # afirmar
 
-Assertion library, but with the name in Spanish
+Tiny assertion library, but with the name in Spanish. Does nice comparisons by default. To install it:
 
-The purpose is to be tiny but doing the proper comparisons by default.
+```
+npm install afirmar
+```
 
 All of these **pass**:
 
 ```js
+import assert from "afirmar";
+
 // Normal assert
 assert(true);
 
