@@ -3,6 +3,7 @@
   "version": "0.2.2",
   "description": "Assertion library, but in Spanish",
   "main": "afirmar.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
