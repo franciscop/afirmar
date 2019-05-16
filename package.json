@@ -1,6 +1,6 @@
 {
   "name": "afirmar",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Assertion library, but in Spanish",
   "main": "afirmar.js",
   "type": "module",
